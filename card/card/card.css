@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-sec {
+    width: 100%;
+
+}
+
+.containe {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Design-card {
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    box-shadow: 0px 2px 8px 0px rgb(224, 231, 230);
+    transition: 0.3s all ease;
+    border-radius: 8px;
+    /* transform: rotate(360deg); */
+
+}
+
+.Design-card:hover {
+    box-shadow: 0px 8px 20px 0px #e6e0e0;
+    /* transform: rotate(-3deg); */
+    /* transform: translate(5px); */
+    transform: scale(1.02);
+
+
+
+}
+
+.main-class {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.card-img {
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+.card-img1 {
+    width: 398px;
+    height: 300px;
+    background-image: url(../img/img2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+.card-img2 {
+    width: 398px;
+    height: 300px;
+    background-image: url(../img/img3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.icon {
+    color: green;
+    font-size: 25px;
+    padding-top: 280px;
+    padding-left: 20px;
+}
+
+.icon span {
+    padding: 8px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.billing-page {
+    padding: 20px;
+}
+
+.billing-page h3 {
+    padding-bottom: 5px;
+}
+
+.billing-page p {
+    padding-bottom: 5px;
+}
+
+
+
+.button {
+    padding: 20px;
+}
+
+.button button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(98, 225, 208);
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    transition: 0.6s all ease;
+    display: none;
+
+}
+
+.Design-card:hover button {
+    display: block;
+    /* box-shadow: 0px 5px 8px 0px rgb(169, 173, 173); */
+    /* color: #ffffff; */
+    box-shadow: 0px 12px 12px -11px #0db4afb8;
+
+}
